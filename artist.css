@@ -1,0 +1,68 @@
+table{
+	margin: 0 auto;
+	border-radius: 15px;
+	font-size: 15px;
+	background-color: orange;
+	}
+td ,input{
+	margin: 0 auto;
+	border-radius: 8px;
+	padding: 6px;
+}
+th{
+	font-size: 20px;
+	text-align:center;
+}
+#s{
+	width:365px;
+	height: 55px;
+	border-radius: 8px;
+}
+body{
+	background-image: url(1.jpg);
+}
+
+button{
+	background-color: red;
+	font-size: 30px;
+color:white;
+}
+#container ul{
+	list-style: none;
+	background-color: #3C3E94;
+}
+#container ul li{
+	background-color: black;
+	width: 224.5px;
+	border:1px solid-black;
+	float:left;
+	height:50px;
+	line-height:50px ;
+text-align:center;
+color:white;
+font-size: 18px;
+position: relative;
+}
+#container ul li:hover{
+	background-color: #388222;
+
+}
+#container ul ul{
+	display: none;
+}
+#container ul li:hover> ul{
+	display: block;
+}
+#container ul ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position: absolute;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}

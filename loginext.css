@@ -1,0 +1,88 @@
+#container ul{
+	list-style: none;
+	background-color: #3C3E94;
+}
+#container ul li{
+	background-color: black;
+	width: 224.5px;
+	border:1px solid-black;
+	float:left;
+	height:50px;
+	line-height:50px ;
+text-align:center;
+color:white;
+font-size: 18px;
+position: relative;
+}
+#container ul li:hover{
+	background-color: #388222;
+
+}
+#container ul ul{
+	display: none;
+}
+#container ul li:hover> ul{
+	display: block;
+}
+#container ul ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position: absolute;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#m{
+	width: 1365px;
+	height: 20px;
+	background-color: black;
+}
+#m1{
+	width: 1365px;
+	height: 60px;
+	background-color: red;
+	font-size: 50px
+}
+#down ul{
+	list-style: none;
+	background-color: #3C3E94;
+}
+#down ul li{
+	background-color: black;
+	width: 337px;
+	border:1px solid-black;
+	float:left;
+	height:50px;
+	line-height:50px ;
+text-align:center;
+color:white;
+font-size: 18px;
+position: relative;
+}
+#down ul li:hover{
+	background-color: #388222;
+
+}
+#hear{
+	height: 350px;
+	width: 1350px;
+	background-color: lavender;
+}
+#info{
+	height: 300px;
+	width: 1350px;
+	background-color: lavender;
+}
+#down ul ul{
+	display: none;}
+	#bod{
+		background-image: url(logo.jpg);
+	}
+	body{
+		background-image: url(1.jpg);
+	}
